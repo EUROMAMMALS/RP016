@@ -14,6 +14,15 @@ Reproduction Package Eurodeer paper n. 016
 
 Datasets and analysis scripts of Salvatori, De Groeve et al. (2022).
 
+# Analysis scripts 
+
+The analysis is represented by the following analysis scripts:
+
+0. [data preparation](https://euromammals.github.io/RP016/code/0_data_preparation.html)
+1. [mismatch and modelling](https://euromammals.github.io/RP016/code/1_mismatch_and_modelling.html)
+2. [patch analysis](https://euromammals.github.io/RP016/code/2_patchsize.html)
+3. [GPS location validation](https://euromammals.github.io/RP016/code/3_validation_gps.html)
+
 # Directory Structure 
 
 The repository contains the following files and directories:
