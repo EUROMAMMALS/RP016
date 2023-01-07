@@ -1,0 +1,27 @@
+name: Reproduction Package Eurodeer paper n. 016
+navbar:
+  title: "Reproduction Package Eurodeer paper n. 016"
+  left:
+  - text: Topics
+    menu:
+    - text: data preparation
+      href: ./code/0_data_preparation.html
+    - text: mismatch and modelling
+      href: ./code/1_mismatch_and_modelling.html
+    - text: patchsize  
+      href: ./code/2_patchsize.html
+    - text: GPS validation
+      href: ./code/3_validation_gps.html
+output:
+  html_document:
+    theme: spacelab
+    highlight: haddock
+    css: html-md-01.css
+    fig_caption: no
+    number_sections: yes
+    toc: yes
+    toc_float: no
+    collapsed: no
+    lib_dir: site_libs
+    self_contained: no
+output_dir: ~
