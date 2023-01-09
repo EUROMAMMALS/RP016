@@ -10,8 +10,6 @@ output:
     collapsed: no
 ---
 
-# Reproduction Package Eurodeer paper n. 016
-
 Datasets and analysis scripts of Salvatori, De Groeve et al. (2022). 
 
 * www: [RP016](https://euromammals.github.io/RP016/) 
