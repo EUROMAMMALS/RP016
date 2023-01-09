@@ -111,9 +111,6 @@ Raw and processed datasets are stored in the data-directory
 | **[2_patchsize/](https://github.com/EUROMAMMALS/RP016/blob/master/data/2_patchsize/)**             | CSV; GPS locations with patch sizes                                                                |  
 | **[3_validation_gps/](https://github.com/EUROMAMMALS/RP016/blob/master/data/3_validation_gps/)**         | CSV; 100 random gps locations per population, validated using a satellite layer as ground truth    |  
 
-
-# Directory tree 
-
 # References 
 
 Salvatori M, De Groeve J, van Loon E, De Baets B, Morellet N, Focardi S, Bonnot NC,  Gehr B, Griggio M, Heurich M, Kroeschel M, Licoppe A, Moorcroft PRM, Pedrotti L, Signer J, Van de Weghe N, & Cagnacci F (2022) Day versus night use of forest by red and roe deer as determined by Corine Land Cover and Copernicus Tree Cover Density: assessing use of geographic layers in movement ecology. Landscape Ecology, 37: 1453-1468

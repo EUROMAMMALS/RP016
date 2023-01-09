@@ -2,7 +2,7 @@ name: Reproduction Package Eurodeer paper n. 016
 navbar:
   title: "Reproduction Package Eurodeer paper n. 016"
   left:
-  - text: Topics
+  - text: Scripts
     menu:
     - text: data preparation
       href: ./code/0_data_preparation.html
