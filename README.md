@@ -101,7 +101,7 @@ Data preparation and analysis scripts are stored in the code-directory.
 |  file(s)/directories                   |   description                                                                                      |
 |----------------------------------------|----------------------------------------------------------------------------------------------------|
 | **[0_data_preparation.sql](https://github.com/EUROMAMMALS/RP016/blob/master/code/0_data_preparation.sql)**      | SQL-query extracting the raw data from the eurodeer database                                       |
-| **[0_data_preparation.R](https://github.com/EUROMAMMALS/RP016/blob/master/code/0_data_preparation.R)**        | preparation of gps_data/kde_data: calculation of HRs & intersection of GPS/KDE with TCD/CLC   | 
+| **[0_data_preparation.Rmd](https://github.com/EUROMAMMALS/RP016/blob/master/code/0_data_preparation.R)**        | preparation of gps_data/kde_data: calculation of HRs & intersection of GPS/KDE with TCD/CLC   | 
 | **[1_mismatch_and_modelling.Rmd](https://github.com/EUROMAMMALS/RP016/blob/master/code/1_mismatch_and_modelling.Rmd)**| CLC/TCD mismatch analysis and statistical modelling of day-night forest use in roe and red deer    | 
 | **[2_patchsize.Rmd](https://github.com/EUROMAMMALS/RP016/blob/master/code/2_patchsize.Rmd)**   | patch size analysis                                                                                | 
 | **[3_validation_gps.Rmd](https://github.com/EUROMAMMALS/RP016/blob/master/code/3_validation_gps.Rmd)**   | Validation confusion matrices of mismatching GPS location                                          | 
