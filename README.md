@@ -1,3 +1,15 @@
+---
+title: "Reproduction Package Eurodeer paper n. 016"
+output:
+  html_document:
+    css: html-md-01.css
+    fig_caption: no
+    number_sections: no
+    toc: no
+    toc_float: false
+    collapsed: no
+---
+
 # Reproduction Package Eurodeer paper n. 016
 
 Datasets and analysis scripts of Salvatori, De Groeve et al. (2022).
