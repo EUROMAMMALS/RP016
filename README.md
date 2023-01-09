@@ -16,21 +16,26 @@ The analysis is represented by the following analysis scripts:
 
 The repository contains the following files and directories:
 
+## code-directory 
 
 |  file(s)/directories                   |   description                                                                                      |
 |----------------------------------------|----------------------------------------------------------------------------------------------------|
-| **[./code/0_data_preparation.sql](https://github.com/EUROMAMMALS/RP016/blob/master/code/0_data_preparation.sql)**      | SQL-query extracting the raw data from the eurodeer database                                       |
-| **[./code/0_data_preparation.R](https://github.com/EUROMAMMALS/RP016/blob/master/code/0_data_preparation.R)**        | preparation of gps_data/kde_data: calculation of HRs & intersection of GPS/KDE with TCD/CLC   | 
-| **[./code/1_mismatch_and_modelling.Rmd](https://github.com/EUROMAMMALS/RP016/blob/master/code/1_mismatch_and_modelling.Rmd)**| CLC/TCD mismatch analysis and statistical modelling of day-night forest use in roe and red deer    | 
-| **[./code/2_patchsize.Rmd](https://github.com/EUROMAMMALS/RP016/blob/master/code/2_patchsize.Rmd)**   | patch size analysis                                                                                | 
-| **[./code/3_validation_gps.Rmd](https://github.com/EUROMAMMALS/RP016/blob/master/code/3_validation_gps.Rmd)**   | Validation confusion matrices of mismatching GPS location                                          | 
-| **[./code/fncs/](https://github.com/EUROMAMMALS/RP016/blob/master/code/fncs/)**     | functions used in step 1, 2, 3                                                                     | 
-| **[./data/raw/gps/](https://github.com/EUROMAMMALS/RP016/blob/master/data/raw/gps/)**       | RDS; raw gps data of roe and red deer as extracted from the eurodeer database                      |  
-| **[./data/raw/rasters/](https://github.com/EUROMAMMALS/RP016/blob/master/data/raw/rasters/)**       | TIF; study area extracts of TCD and CLC rasters                                                    |  
-| **[./data/1_analysis/](https://github.com/EUROMAMMALS/RP016/blob/master/data/1_analysis/)**             | CSV; absolute and proportion of forest and open habitat calculated for GPS/KDE with TCD/CLC        |  
-| **[./data/2_patchsize/](https://github.com/EUROMAMMALS/RP016/blob/master/data/2_patchsize/)**             | CSV; GPS locations with patch sizes                                                                |  
-| **[./data/3_validation_gps/](https://github.com/EUROMAMMALS/RP016/blob/master/data/3_validation_gps/)**         | CSV; 100 random gps locations per population, validated using a satellite layer as ground truth    |  
-| **[./code/results/](https://github.com/EUROMAMMALS/RP016/blob/master/code/results/)**       | DIR; empty directory to store outputs      
+| **[0_data_preparation.sql](https://github.com/EUROMAMMALS/RP016/blob/master/code/0_data_preparation.sql)**      | SQL-query extracting the raw data from the eurodeer database                                       |
+| **[0_data_preparation.R](https://github.com/EUROMAMMALS/RP016/blob/master/code/0_data_preparation.R)**        | preparation of gps_data/kde_data: calculation of HRs & intersection of GPS/KDE with TCD/CLC   | 
+| **[1_mismatch_and_modelling.Rmd](https://github.com/EUROMAMMALS/RP016/blob/master/code/1_mismatch_and_modelling.Rmd)**| CLC/TCD mismatch analysis and statistical modelling of day-night forest use in roe and red deer    | 
+| **[2_patchsize.Rmd](https://github.com/EUROMAMMALS/RP016/blob/master/code/2_patchsize.Rmd)**   | patch size analysis                                                                                | 
+| **[3_validation_gps.Rmd](https://github.com/EUROMAMMALS/RP016/blob/master/code/3_validation_gps.Rmd)**   | Validation confusion matrices of mismatching GPS location                                          | 
+| **[fncs/](https://github.com/EUROMAMMALS/RP016/blob/master/code/fncs/)**     | functions used in step 1, 2, 3                                                                     | 
+
+## data-directory  
+
+|  file(s)/directories                   |   description                                                                                      |
+|----------------------------------------|----------------------------------------------------------------------------------------------------|
+| **[raw/gps/](https://github.com/EUROMAMMALS/RP016/blob/master/data/raw/gps/)**       | RDS; raw gps data of roe and red deer as extracted from the eurodeer database                      |  
+| **[raw/rasters/](https://github.com/EUROMAMMALS/RP016/blob/master/data/raw/rasters/)**       | TIF; study area extracts of TCD and CLC rasters                                                    |  
+| **[1_mismatch_and_modelling/](https://github.com/EUROMAMMALS/RP016/blob/master/data/1_mismatch_and_modelling/)**             | CSV; absolute and proportion of forest and open habitat calculated for GPS/KDE with TCD/CLC        |  
+| **[2_patchsize/](https://github.com/EUROMAMMALS/RP016/blob/master/data/2_patchsize/)**             | CSV; GPS locations with patch sizes                                                                |  
+| **[3_validation_gps/](https://github.com/EUROMAMMALS/RP016/blob/master/data/3_validation_gps/)**         | CSV; 100 random gps locations per population, validated using a satellite layer as ground truth    |  
 
 
 # Directory tree 
@@ -40,9 +45,11 @@ The repository contains the following files and directories:
 ├── README.md
 ├── RP016.Rproj
 ├── code
-│   ├── 0_data_preparation.R
 │   ├── 0_data_preparation.sql
-│   ├── 1_mismatch_and_modelling.R
+│   ├── 0_data_preparation.Rmd
+│   ├── 0_data_preparation.html
+│   ├── 1_mismatch_and_modelling.Rmd
+│   ├── 1_mismatch_and_modelling.html
 │   ├── 2_patchsize.Rmd
 │   ├── 2_patchsize.html
 │   ├── 3_validation_gps.Rmd
