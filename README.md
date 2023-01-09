@@ -8,7 +8,15 @@ output:
     toc: no
     toc_float: false
     collapsed: no
+knit: (function(input, ...) {
+    rmarkdown::render(
+      input,
+      output_file = 'index.html',
+      envir = globalenv()
+    )
+  })
 ---
+
 
 Datasets and analysis scripts of Salvatori, De Groeve et al. (2022). 
 
