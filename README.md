@@ -109,7 +109,7 @@ Data preparation and analysis scripts are stored in the code-directory.
 
 ## data-directory  
 
-Raw and processed datasets are stored in the data-directory
+Raw and processed datasets are stored in the data-directory. Datasets are described in more detail in the above scripts. 
 
 |  file(s)/directories                   |   description                                                                                      |
 |----------------------------------------|----------------------------------------------------------------------------------------------------|
