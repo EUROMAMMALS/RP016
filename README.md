@@ -18,7 +18,7 @@ knit: (function(input, ...) {
 ---
 
 
-Datasets and analysis scripts of Salvatori, De Groeve et al. (2022). 
+Datasets and analysis scripts of [Salvatori, De Groeve et al. (2022)](https://doi.org/10.1007/s10980-022-01416-w). 
 
 * www: [RP016](https://euromammals.github.io/RP016/) 
 * repository: [RP016](https://github.com/EUROMAMMALS/RP016) 
